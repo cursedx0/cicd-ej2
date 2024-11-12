@@ -10,7 +10,7 @@ jobs:
     steps:
       -
         name: bajar codigo
-        run: actions/checkout@v4
+        uses: actions/checkout@v4
       -
         name: correccion
         uses: advanced-security/python-lint-code-scanning-action@v1
